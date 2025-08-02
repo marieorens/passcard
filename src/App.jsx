@@ -319,7 +319,7 @@ const LinkagePage = () => {
     e.preventDefault();
     
     // Appel à l'API
-    fetch('https://pegazis.com/passcard-backend/api/wallet/link', {
+    fetch('https://passcard-backend.onrender.com/api/wallet/link', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -529,7 +529,7 @@ const UrgencePage = () => {
     e.preventDefault();
     
     // Appel à l'API
-    fetch('https://pegazis.com/passcard-backend/api/emergency/activate', {
+    fetch('https://passcard-backend.onrender.com/api/emergency/activate', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
